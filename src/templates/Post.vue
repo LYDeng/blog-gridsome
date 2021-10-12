@@ -1,7 +1,7 @@
 <!--
  * @Date: 2021-10-11 09:38:09
  * @LastEditors: lyd
- * @LastEditTime: 2021-10-12 16:27:14
+ * @LastEditTime: 2021-10-12 17:28:43
  * @Description: 无
 -->
 <template>
@@ -9,7 +9,7 @@
       <!-- Page Header -->
   <header class="masthead"
     :style="{
-      backgroundImage: `url(${ GRIDSOME_API_URL + $page.post.cover.url})`
+      backgroundImage: `url(${ $page.post.cover.url})`
     }"
   >
     <div class="overlay"></div>

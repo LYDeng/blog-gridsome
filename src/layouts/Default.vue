@@ -1,7 +1,7 @@
 <!--
  * @Date: 2021-10-11 09:38:09
  * @LastEditors: lyd
- * @LastEditTime: 2021-10-12 16:37:02
+ * @LastEditTime: 2021-10-12 17:22:38
  * @Description: 无
 -->
 <template>
@@ -23,7 +23,7 @@
                <g-link to="/About">About</g-link>
             </li>
             <li class="nav-item">
-              <g-link to="/post/1">Sample Post</g-link>
+              <g-link to="/post/">Sample Post</g-link>
             </li>
             <li class="nav-item">
                <g-link to="/contact">Contact</g-link>

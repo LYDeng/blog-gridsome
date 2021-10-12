@@ -1,7 +1,7 @@
 <!--
  * @Date: 2021-10-11 09:38:09
  * @LastEditors: lyd
- * @LastEditTime: 2021-10-12 16:26:30
+ * @LastEditTime: 2021-10-12 17:29:02
  * @Description: 无
 -->
 <template>
@@ -10,7 +10,7 @@
     <header
       class="masthead"
       :style="{
-        backgroundImage: `url(${GRIDSOME_API_URL + general.cover.url})`,
+        backgroundImage: `url(${ general.cover.url})`,
       }"
     >
       <div class="overlay"></div>
